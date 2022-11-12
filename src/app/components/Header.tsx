@@ -1,7 +1,6 @@
 import {AppBar, Box, Toolbar} from "@mui/material";
-import {useSelector} from "react-redux";
 import {useAppSelector} from "../hooks";
-import {getFirstCurrency, getFirstCurrencyRate, getKof} from "../store/currencySlice";
+import {getFirstCurrency, getFirstCurrencyRate,} from "../store/currencySlice";
 
 const Header = ()=>{
     const firstCurrencyRate= useAppSelector(getFirstCurrencyRate)
